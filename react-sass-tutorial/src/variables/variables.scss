@@ -1,0 +1,19 @@
+// Colors
+$blackColor: rgb(24, 24, 24);
+$whiteColor: rgb(255, 255, 255);
+$redColor: rgb(255, 0, 0);
+
+// Fonts
+$firstFont: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+$titleFont: Arial, Helvetica, sans-serif;
+$bodyFont: "Times New Roman", Times, serif;
+
+@mixin buttonStyle($color, $fontSize) {
+  width: 200px;
+  height: 40px;
+  background-color: $color;
+  border: none;
+  border-radius: 8px;
+  color: $whiteColor;
+  font-size: $fontSize;
+}
